@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { heoresModule } from './heores/heores.module';
 import { contadoModule } from './contador/contador.module';
+import { BleachModule } from './bleach/bleach.module';
 
 @NgModule({
   declarations: [
@@ -12,7 +13,8 @@ import { contadoModule } from './contador/contador.module';
   imports: [
     BrowserModule,
     heoresModule,
-    contadoModule
+    contadoModule,
+    BleachModule
   ],
   providers: [],
   bootstrap: [AppComponent]
